@@ -18,6 +18,17 @@ example_*/Project.xcconfig
 example_*/*.xcodeproj
 example_*/openFrameworks-Info.plist
 
+example_*/*.sln
+example_*/*.vcxproj*
+*/bin/*
+!*/bin/data/
+*.o
+.vs
+addons
+*/[Oo]bj/
+*.vcxproj.user
+example_*/icon.rc
+
 # temp
 scripts/libtensorflow*
 
@@ -132,3 +143,4 @@ Desktop.ini
 *.log
 *.sql
 *.sqlite
+.vs

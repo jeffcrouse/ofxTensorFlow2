@@ -87,7 +87,8 @@ common:
 
 # should work, not yet supported
 vs:
-
+	ADDON_LIBS += /libs/tensorflow/lib/tensorflow.lib
+	
 # supported
 linux64:
 	ADDON_LDFLAGS += -ltensorflow
